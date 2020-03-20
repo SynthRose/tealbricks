@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tealbricks:block/teal_nether_bricks",
+    "top": "tealbricks:block/teal_nether_bricks",
+    "side": "tealbricks:block/teal_nether_bricks"
+  }
+}

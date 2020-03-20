@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tealbricks:block/teal_nether_brick_slab"
+    },
+    "type=double": {
+      "model": "tealbricks:block/teal_nether_bricks"
+    },
+    "type=top": {
+      "model": "tealbricks:block/teal_nether_brick_slab_top"
+    }
+  }
+}

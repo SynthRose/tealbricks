@@ -1,28 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "${id}",
-  "version": "${version}",
-
-  "name": "${id}",
-  "icon": "assets/blueprint/icon.png",
-  "description": "Template for starting out FabLabs drafts",
+  "id": "tealbricks",
+  "version": "1.0.0+20w12a",
+  "name": "Teal Bricks",
+  "icon": "assets/tealbricks/icon.png",
+  "description": "Adds Teal Nether Bricks and Lantern Blocks.",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/${repo}"
+    "sources": "https://github.com/SynthRose/tealbricks"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.fablabsmc.blueprint.Blueprint"
+      "net.synthrose.tealbricks.TealBricks"
     ]
   },
-  "mixins": [
-    "mixins.${id}.json"
-  ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
   }
 }

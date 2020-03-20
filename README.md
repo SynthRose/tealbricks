@@ -1,22 +1,8 @@
-<img src="icon.png" align="right" width="180px"/>
+# Teal Bricks
+*For Minecraft 20w12a*
 
-# Blueprint
+This mod adds Teal Nether Bricks and associated slabs, stairs, and walls to Minecraft. They are crafted just like Red Nether Bricks, but using Nether Sprouts instead of Nether Wart. Also, Warped Wart Blocks can now be crafted using 9 Nether Sprouts, and have been renamed to Nether Sprout Blocks to better mirror Nether Wart Blocks (which aren't called Crimson Wart Blocks). Nether Sprouts have also been given an item model.
 
+That was supposed to be it, but then I ended up adding Lantern Blocks too. There are both regular and soul fire versions. They're crafted with four iron ingots around a lantern.
 
-[>> Downloads <<](https://github.com/FabLabsMC/Blueprint/releases)
-
-*Let's get drafting!*
-
-**This mod is open source and under a permissive license.** As such, it can be included in any modpack on any platform without prior permission. We appreciate hearing about people using our mods, but you do not need to ask to use them. See the [LICENSE file](LICENSE) for more details.
-
-This is a template repository for creating Fab Labs projects with automatic CI publishing to the Github Packages maven. Fab Labs projects are typically experimental API drafts that will eventually be PR'd into [Fabric API](https://github.com/fabricmc/fabric).
-
-## Setting Up
-Setup is designed to be as easy as possible for creating new projects.
-1. Click the "Use this template" button above the file view.
-2. Clone the newly-created repo to your computer.
-3. In [gradle.properties](gradle.properties), change the `archives_base_name` property to be your mod ID.
-4. In your IDE, change the name of the `io.github.fablabsmc.blueprint` package and the `io.github.fablabsmc.blueprint.Blueprint` class as necessary. Change the `MODID` field in `Blueprint` to your mod ID.
-5. Change the name of `mixins.blueprint.json` by replacing `blueprint` with your mod ID. Change the value of `package` in the mixins JSON as necessary.
-6. In fabric.mod.json, change the `description` and `entrypoints` fields as necessary.
-7. You're all set up to get working!
+You'll need [Fabric](https://fabricmc.net/) to use this mod. Feel free to put it in your packs. Enjoy.
